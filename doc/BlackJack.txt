@@ -1,0 +1,25 @@
+Target:    	 Have as much points as you can without exceeding 21.
+Points of Cards: A is 1 or 11 points; 2-10s are as many points as they are; J, Q or K is each 10 points.
+
+Player status:
+Stand:           The points of your cards add up to less than 21 but you choose not to add another card.
+Bust:            The points of your cards add up to more than 21. You lose the game and your wagers.
+Twentyone:       The points of your cards add up to exactly 21. If you win you will get the same amount of your bet chips from the dealer plus the wagers. 
+BlackJack: 	 The points of your cards add up to exactly 21 at the first round with an Ace plus a 10-point card. If you win You will be paid 3 to 2 of your bets. 
+
+
+Victory condition: BlackJack > regular 21 points > less the 21 points > bust(over 21 points).
+Push condition:  BlackJack vs BlackJack, or 21 points vs 21 points, or the same points for both you and the dealer.
+
+How to play:
+Set bet:   	 In the beginning of each game, you setup your bets of chips.
+First  turn: 	 You and the dealer each has two cards. Dealer will show you the first card. If neither of you hits 21 points, 	proceed;
+Second turn:     Your turn. you can choose different strategies until you stand or win or bust;
+Third  turn:     Dealer’s turn. Dealer has to hit until 17 points with A’s counted as 1’s. This is call hard hand.
+
+Strategy:
+Hit: 		 Continue getting a new card until you choose to STAND or your points add up to 21 or bust.
+Stand:		 Wait for the dealer to bust or STAND to compare the point with yours.
+Surrender:	 Choose at the first turn. You can get back half your wagers.
+Double:		 Choose at the first turn. You simply double your bets, but have to hit one and only one another turn.
+Insurance:	 If the dealer’s first card is an Ace, you can add un to half you current bet as the insurance. Then if the dealer has BlackJack, you will be paid back with double the insurance plus itself. So  with your lost wagers you have no net gains or losses. Otherwise, if the dealer has no BlackJack, the insurance goes to the dealer at the end of the turn.
