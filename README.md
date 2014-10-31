@@ -11,6 +11,7 @@ It is compiled and tested and run in g++4.2.1, icc
 Use the following commands in the terminal commandline to compile.
 
 g++ -c BlackJack.cpp
+
 g++ -o BlackJack BlackJack.o 
 
 run the program by
